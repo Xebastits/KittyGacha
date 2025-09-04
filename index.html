@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitty Gacha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
-</body>
+    <h1 class="textHeader">Kitty Gacha!</h1>
+    <div class="generate">
+        <button type="button" onclick="fetchCatImage()" alt="button">
+            <span id="buttonMeow">
+                &#128568 Generate Meows! (Next Cat) &#128568
+            </span>
+        </button>
+    </div>
+    <div id="catContainer">
+        <img id="catImage" src="" alt="When click, get Cat Image" style="display: none;" />
+    </div>
+
 </html>
