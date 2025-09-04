@@ -12,4 +12,4 @@ All assets used are created personally to avoid copyright issues.
 
 Click Button to fetch new Cat Image from TheCatApi Website.
 
-Add more weird effects when getting different criterias (GIF, literal Cars)
+Will add more weird effects when getting different criterias (GIF, literal Cars)
